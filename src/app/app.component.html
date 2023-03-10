@@ -1,21 +1,29 @@
-<h1>FTB-Solutions</h1>
 
-<div>
-  Gruppenmitglieder:
-<li>Projektleiter: Tobias Hahn </li>
-<li>Technischer Assistent: Lars Holweger </li>
-<li>Verantwortlicher für Recherche: Fabian Lukas Unger </li>
-<li>Verantwortlicher für Modellierung: Timo Zink (Stellvertreter) </li>
-<li>Verantwortlicher für Tests: Frank Sadoine </li>
-<li>Verantwortlicher für Implementierung: Fabian Eilber </li>
-<li>Verantwortlicher für Qualitätssicherung und Dokumentation: Fabian Lukas Unger </li>
+<div class="navbar">
+  <h1 class="headline">
+  FTB<br> <span class="text-highlight">Solutions</span>
+  </h1>
+  
+  
+  <div class="navbarcomp">
+    <a routerLink="/projekt" routerLinkActive="active" ariaCurrentWhenActive="page">Projekt</a>
+    <a routerLink="/aboutus" routerLinkActive="active" ariaCurrentWhenActive="page">Über uns</a>
+    <a routerLink="/abgaben" routerLinkActive="active" ariaCurrentWhenActive="page">Abgaben</a>
+  </div>
 </div>
-
-<nav>
-  <ul>
-    <li><a routerLink="/impressum" routerLinkActive="active" ariaCurrentWhenActive="page">Impressum</a></li>
-    <li><a routerLink="/abgaben" routerLinkActive="active" ariaCurrentWhenActive="page">Abgaben</a></li>
-  </ul>
-</nav>
-
 <router-outlet></router-outlet>
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <p>&copy; 2023 FTB Solutions</p>
+      </div>
+      <div class="col-md-6 text-right">
+        <ul class="list-inline">
+          <li class="list-inline-item"><a routerLink="/impressum" routerLinkActive="active" ariaCurrentWhenActive="page">Impressum</a></li>
+          <li class="list-inline-item"><a href="#">Datenschutzerklärung</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>

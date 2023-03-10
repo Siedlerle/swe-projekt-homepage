@@ -6,6 +6,8 @@ import { AppComponent } from './app.component';
 import { ImpressumComponent } from './impressum/impressum.component';
 import { AbgabenComponent } from './abgaben/abgaben.component';
 import { RouterModule } from '@angular/router';
+import { AboutusComponent } from './aboutus/aboutus.component';
+import { ProjektComponent } from './projekt/projekt.component';
 
 
 @NgModule({
@@ -13,6 +15,8 @@ import { RouterModule } from '@angular/router';
     AppComponent,
     ImpressumComponent,
     AbgabenComponent,
+    AboutusComponent,
+    ProjektComponent,
     
   ],
   imports: [
