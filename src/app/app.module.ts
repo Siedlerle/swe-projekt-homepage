@@ -8,6 +8,8 @@ import { AbgabenComponent } from './abgaben/abgaben.component';
 import { RouterModule } from '@angular/router';
 import { AboutusComponent } from './aboutus/aboutus.component';
 import { ProjektComponent } from './projekt/projekt.component';
+import { GeschuetzteAbgabenComponent } from './geschuetzte-abgaben/geschuetzte-abgaben.component';
+import { LoginComponent } from './login/login.component';
 
 
 @NgModule({
@@ -17,6 +19,8 @@ import { ProjektComponent } from './projekt/projekt.component';
     AbgabenComponent,
     AboutusComponent,
     ProjektComponent,
+    GeschuetzteAbgabenComponent,
+    LoginComponent,
     
   ],
   imports: [
