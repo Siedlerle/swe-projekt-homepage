@@ -33,6 +33,7 @@ export class LoginComponent
     else if(this.name != '' && this.password != '')
     {
       alert('Benutzername oder Passwort ist falsch');
+      this.router.navigate(['/login']);
     }
   }
 }
