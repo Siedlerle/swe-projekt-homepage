@@ -30,11 +30,6 @@ export class LoginComponent
     if (this.name == this.correctName && this.password == atob(this.correctPsswd)) {
       this.router.navigate(['/geschützte_Abgaben']);
     } 
-    else if(this.name != '' && this.password != '')
-    {
-      alert('Benutzername oder Passwort ist falsch');
-      this.router.navigate(['/login']);
-    }
   }
 }
 
