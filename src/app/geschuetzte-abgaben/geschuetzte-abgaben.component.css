@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.pdfIMG{
+    height: 85px;
+    width:  75px;
+}
+
+.abgabeBlock{
+    margin-top: 10px;
+    margin-left: 50px;
+}
