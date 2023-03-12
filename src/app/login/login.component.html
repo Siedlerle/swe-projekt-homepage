@@ -1,11 +1,13 @@
 <body>
-    <form>
-      <label for="name">Benutzername:</label>
-      <input #nameInput type="text" placeholder="Benutzername" required>
+  
+  <form>
+    <label for="name">Benutzername:</label>
+    <input #nameInput type="text" placeholder="Benutzername" required>
 
-      <label for="password">Passwort:</label>
-      <input #passwdInput type="password" placeholder="Passwort" required>
-
-      <input type="submit" value="Submit" (click)="onSubmit()">
-    </form>
-  </body>
+    <label for="password">Passwort:</label>
+    <input #passwdInput type="password" placeholder="Passwort" required>
+    
+    <label class="warning" #warning for="submit" *ngIf="loginFailed">Benutzername oder Passwort falsch!</label>
+    <input type="submit" value="Submit" (click)="onSubmit($event)">
+  </form>
+</body>
