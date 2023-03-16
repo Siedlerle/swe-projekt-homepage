@@ -6,6 +6,7 @@ import { AboutusComponent } from './aboutus/aboutus.component';
 import { ProjektComponent } from './projekt/projekt.component';
 import { GeschuetzteAbgabenComponent } from './geschuetzte-abgaben/geschuetzte-abgaben.component';
 import { LoginComponent } from './login/login.component';
+import { DatenschutzerklaerungComponent } from './datenschutzerklaerung/datenschutzerklaerung.component';
 
 
 const routes: Routes = [
@@ -14,7 +15,8 @@ const routes: Routes = [
   {path: 'impressum', component: ImpressumComponent},
   {path: 'abgaben', component: AbgabenComponent},
   { path: 'geschützte_Abgaben', component: GeschuetzteAbgabenComponent},
-  { path: 'login', component: LoginComponent}
+  { path: 'login', component: LoginComponent},
+  {path: 'datenschutzerklaerung', component: DatenschutzerklaerungComponent}
 ];
 
 @NgModule({

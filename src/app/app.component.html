@@ -1,19 +1,19 @@
-<div class="navbar">
-<a routerLink="/" routerLinkActive="active" ariaCurrentWhenActive="page">
-<h1 class="headline">
-  FTB<br> <span class="text-highlight">Solutions</span>
-  </h1>
-</a>
-  
-  <div class="navbarcomp">
-    <a routerLink="/projekt" routerLinkActive="active" ariaCurrentWhenActive="page">Projekt</a>
-    <a routerLink="/aboutus" routerLinkActive="active" ariaCurrentWhenActive="page">Über uns</a>
-    <a routerLink="/abgaben" routerLinkActive="active" ariaCurrentWhenActive="page">Abgaben</a>
-    <a routerLink="/login" routerLinkActive="active" ariaCurrentWhenActive="page">private Abgaben</a>
+<body>
+  <div class="navbar">
+  <a routerLink="/" routerLinkActive="active" ariaCurrentWhenActive="page">
+  <h1 class="headline">
+    FTB<br> <span class="text-highlight">Solutions</span>
+    </h1>
+  </a>
+    
+    <div class="navbarcomp">
+      <a routerLink="/projekt" routerLinkActive="active" ariaCurrentWhenActive="page">Projekt</a>
+      <a routerLink="/aboutus" routerLinkActive="active" ariaCurrentWhenActive="page">Über uns</a>
+      <a routerLink="/abgaben" routerLinkActive="active" ariaCurrentWhenActive="page">Abgaben</a>
+      <a routerLink="/login" routerLinkActive="active" ariaCurrentWhenActive="page">private Abgaben</a>
+    </div>
   </div>
-</div>
-
-
+</body>
 <router-outlet></router-outlet>
 <footer>
   <div class="container">
@@ -24,9 +24,11 @@
       <div class="col-md-6 text-right">
         <ul class="list-inline">
           <li class="list-inline-item"><a routerLink="/impressum" routerLinkActive="active" ariaCurrentWhenActive="page">Impressum</a></li>
-          <li class="list-inline-item"><a href="#">Datenschutzerklärung</a></li>
+          <li class="list-inline-item"><a href="/datenschutzerklaerung">Datenschutzerklärung</a></li>
         </ul>
       </div>
     </div>
   </div>
 </footer>
+
+

@@ -9,6 +9,7 @@ import { AboutusComponent } from './aboutus/aboutus.component';
 import { ProjektComponent } from './projekt/projekt.component';
 import { GeschuetzteAbgabenComponent } from './geschuetzte-abgaben/geschuetzte-abgaben.component';
 import { LoginComponent } from './login/login.component';
+import { DatenschutzerklaerungComponent } from './datenschutzerklaerung/datenschutzerklaerung.component';
 
 
 @NgModule({
@@ -20,6 +21,7 @@ import { LoginComponent } from './login/login.component';
     ProjektComponent,
     GeschuetzteAbgabenComponent,
     LoginComponent,
+    DatenschutzerklaerungComponent,
     
   ],
   imports: [

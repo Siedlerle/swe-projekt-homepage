@@ -26,3 +26,7 @@ a:hover{
     margin-top: 10px;
     margin-left: 50px;
 }
+
+body{
+    padding-bottom: 50px;
+}
